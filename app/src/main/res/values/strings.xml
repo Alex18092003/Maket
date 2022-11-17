@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Maket</string>
     <string name="Splash">TProduct of <b>Lebedeva Aleksandra</b></string>
+    <string name="Dont">Dont’ have an account? Let’s <b>Register</b></string>
 </resources>
