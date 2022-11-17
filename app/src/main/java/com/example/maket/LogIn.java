@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.ImageView;
 
 public class LogIn extends AppCompatActivity {
-    ImageView image, imageCheked;
+    ImageView  imageCheked;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
