@@ -2,6 +2,7 @@ package com.example.maket;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
@@ -27,5 +28,10 @@ public class LogIn extends AppCompatActivity {
             imageCheked.setImageResource(R.drawable.check_box_not_active);
         }
 
+    }
+
+    public void Next(View v)
+    {
+        startActivity(new Intent(this, Register.class));
     }
 }
